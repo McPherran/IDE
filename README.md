@@ -9,7 +9,7 @@ Copyright 2026 McPherran
 
 ### Language Features
 
-- **function and pipeline oriented, top-down for readability**
+- **Function and pipeline oriented, top-down for readability**
 - **Traditional OO-classes unused (represented by operational pipeline)**
 - **Automated imports** (no #include/import syntax)
 - **Namespaces are based on directories**
@@ -107,6 +107,6 @@ Copyright 2026 McPherran
 - Indentation uses tabs. Tab size of 2 spaces recommended.
 - Builder enforces tabs of size 2 or 4.
 - Most syntax lowercase only
-- Line comments allowed, no comments on same line as code
+- Line comments only, no comments on same line as code
 - Self-documenting code is standard/convention
 
