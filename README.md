@@ -9,7 +9,7 @@ Copyright 2026 McPherran
 
 ### Language Features
 
-- **Function and pipeline oriented**
+- **function and pipeline oriented, top-down for readability**
 - **Traditional OO-classes unused (represented by operational pipeline)**
 - **Automated imports** (no #include/import syntax)
 - **Namespaces are based on directories**
@@ -17,17 +17,17 @@ Copyright 2026 McPherran
 - **Syntax Fosters AI/Scanning**
 - **High Performance**
 - **Power Efficiency**
-- **System V AMD64 ABI (Unix/Linux C-ABI)**
+- **AMD64 ABI (C-ABI) Support**
 
 ### Details
 
 #### Data Management
-- Mutability syntax (TBD)
+- Mutability syntax
 - No properties (unneeded)
   
 #### Operational (Functional) Pipeline
 
-- **All functions are unary or binary operations**
+- **All functions are unary or binary (operation-like)**
 - **The arg(s) to an operation may be a data set**
 - Operations are named functions and symbolic operators, e.g. +, -, *, ...
 - Pattern matching
@@ -110,16 +110,3 @@ Copyright 2026 McPherran
 - Line comments allowed, no comments on same line as code
 - Self-documenting code is standard/convention
 
----
-
-## Development Plan
-
-### Initial development in C using Linux
-
-### Builder
-- Builds C. Eliminates explicit #include/import syntax
-- Source files and references (imports/#includes) are automated and mapped
-- Builds and translates new language
-- Translation Units are hierarchy-based as opposed to file-based
-
-### Code/Text Editor
